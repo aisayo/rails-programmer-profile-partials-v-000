@@ -4,7 +4,7 @@ require 'spec_helper'
 describe "the navbar partial" do
   it "renders the navbar correctly" do
     render "layouts/navbar"
-   
+
     expect(response).to include('Programmers We L<span class="glyphicon glyphicon-heart"></span>ve')
   end
 end
